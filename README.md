@@ -11,7 +11,7 @@ This model is a multi-branched decision tree algorithm, with each node being abl
 
 The splitting heuristic is information gain, as opposed to Gini impurity.
 
-Information gain is calculated as <img src="http://www.sciweavers.org/upload/Tex2Img_1560811146/render.png" />, where
+Information gain is calculated as ![equation](eqn.png), where
 H(Y) is the entropy of the variable Y and H(Y|X) is the *conditional* entropy of the variable Y given X.
 
 ## Performance
